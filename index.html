@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.brand{
+    background-color: black;
+    font-family: 'Alegreya Sans SC',sans-serif;
+    color: #fff;
+    font-size: 39px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: -40px;
+}
+.nav{
+    background-color: black;
+    margin-top: -39px;
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 20px ;
+}
+.nav a{
+    padding: 0 16px 0 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Alegreya Sans SC',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.banner{
+    display: flex;
+}
+.right{
+    font-family: 'Alegreya Sans SC',sans-serif;
+    background-image: url("banner2.jpg");
+    background-repeat: no-repeat;
+    margin-top: -17px;
+    height: 480px;
+    width: 50%;
+    background-size: cover,auto;
+    filter: saturate(200%);
+
+}
+.right-text{
+    font-size: 50px;
+    text-decoration: underline;
+    color: white;
+    padding: 35px 0px 0 30%;
+}
+.right-text1{
+    font-size: 34px;
+    text-decoration: underline;
+    color: white;
+    padding: 0px 0 0 25% ;
+    margin-top: -30px;
+}
+.left{
+    font-family: 'Alegreya Sans SC',sans-serif;
+    background-image: url("banner1.jpg");
+    background-repeat: no-repeat;
+    margin-top: -17px;
+    height: 480px;
+    width: 50%;
+    border-left: 1px solid black;
+    background-size: cover,auto;
+    filter: saturate(200%);
+}
+
+.content1{
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+    margin-top: -20px;
+}
+.text {
+    font-family: 'Alegreya',sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 35px;
+    line-height: 30px;
+}
+.content2{
+    font-family: 'Alegreya',sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -5px;
+
+}
+.content3{
+    font-family: 'Alegreya',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -3px;
+}
+.content4{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -3px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+}
+.content5{
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -3px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.image1{
+    height: 380px;
+    margin-top: -20px;
+    
+}
+.image1 img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    filter: saturate(200%);
+}
+.content6{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.content7{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.image2{
+    margin-top: -200px;
+}
+.image2 img{
+    width: 100%;
+
+}
+.content8{
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    margin-top: -180px;
+
+}
+.content8bold{
+    text-decoration: underline;
+}
+.image3 img{
+    width: 100%;
+}
+.content9{
+    font-size: 100px;
+    font-family: 'Alegreya',sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -180px;
+}
+.content10{
+    font-size: 40px;
+    font-family: 'Alegreya',sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    text-decoration: underline;
+}
+.image4 {
+    display: block;
+    text-align: center;
+}
+.image4 img{
+    height: 380px;
+    filter: saturate(150%);
+}
+.content11{
+    text-align: center;
+    font-size: 35px;
+}
+.content12{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.content12 img{
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+}
+.apj{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow:1px 1px 3px 4px grey;
+}
+.world{
+    margin-top: 18px;
+}
+.an{
+    text-decoration: underline;
+    font-size: 22px;
+    font-family: 'Alegreya Sans SC',sans-serif;
+    color: blue;
+}
+.name{
+    font-size: 22px;
+    font-family: 'Alegreya Sans SC',sans-serif;
+}
+#apj{
+    margin-left: 20px;
+}
+#warren{
+    margin-right: 20px;
+}
+.content13{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.content13 img{
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+}
+.content14 {
+    font-size: 26px;
+    font-family: 'Alegreya',sans-serif;
+    text-align: center;
+    margin-top: 45px;
+}
+.content15 {
+    font-size: 26px;
+    font-family: 'Alegreya',sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 50px;
+}
+.image15{
+    text-align: center;
+}
+.content16 {
+    font-size: 22px;
+    text-align: center;
+}
+.content17{
+    height: 3px;
+    margin-top: 15px;
+    background-color: #000;
+
+}
+.content18{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.content19 {
+    font-size: 20px;
+    font-family: 'Alegreya',sans-serif;
+    text-align: auto;
+    margin-top: 45px;
+}
+.biography{
+    display: flex;
+}
+.biography img{
+    width: 240px;
+    height: 240px;
+    margin: 50px 0 10px 180px;
+    border-radius: 480px;
+}
+.bio {
+
+    height: 440px;
+    width: 1600px;
+}
+.bio1{
+
+    height: 440px;
+    width: 2000px;
+}
+.bio2{
+  
+    height: 440px;
+    width: 1500px;
+}
+.ram{
+    text-align: center;
+    line-height: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.mba{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 10px 10px 10px;
+}
+  </style>
+</head>
+<body>
+  <div class="brand">
+    <p>LeaderClasses</p>
+  </div>
+  <div class="nav">
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Programs</a></li>
+      <li><a href="#">Webinars</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </div>
+  <div class="banner">
+    <div class="right">
+      <h4 class="right-text">LeaderClasses</h4>
+      <h3 class="right-text1">Expert Research Webinars</h3>
+    </div>
+    <div class="left">
+      <h4 class="right-text">LeaderClasses</h4>
+      <h3 class="right-text1">Programs for Your Excellence</h3>
+    </div>
+  </div>
+  <div class="content1">
+    <p class="text"><strong>Leader Classes</strong> harnesses the world's best Career Advancement & Leadership Development resources, helping<br> you gain Expert Knowledge, Practical Guidance & Actionable Insights from Extraordinary Leaders & World <br>Class Institutions through Specialized, Affordable, Online & Offline Programs custom crafted to Accelerate <br>your Career & Business Success while transforming you into a better & more effective Leader.‍</p>
+  </div>
+  <div class="content2">
+    <p>To facilitate this,<br>Leader Classes :-</p>
+  </div>
+  <div class="content3">
+    <p>I. Relentlessly tracks & learns from</p>
+  </div>
+  <div class="content4">
+    <p>100+ ​FULLTIME/ EXECUTIVE DEVELOPMENT PROGRAMS AT PRE-EMINENT UNIVERSITIES</p>
+  </div>
+  <div class="content5">
+    <p>LIKE</p>
+  </div>
+  <div class="image1">
+    <img src="image1.png" alt="image">
+  </div>
+  <div class="content6">
+    <p>ECONOMY & GLOBALIZATION ENABLERS</p>
+  </div>
+  <div class="content7">
+    <p>LIKE</p>
+  </div>
+  <div class="image2">
+    <img src="image2.png" alt="image">
+  </div>
+  <div class="content8">
+    <p>50+  RENOWNED <strong class="content8bold"> HIGH POTENTIAL </strong> (HI-PO) & ‍<br><strong class="content8bold">EXECUTIVE LEADERSHIP DEVELOPMENT PROGRAMS</strong> OF TOP TIER ORGANISATIONS </p>
+  </div>
+  <div class="content7">
+    <p>LIKE</p>
+  </div>
+  <div class="image3">
+    <img src="image3.jpeg" alt="image">
+  </div>
+  <div class="content9">
+    <p>&</p>
+  </div>
+  <div class="content10">
+    <p>THOUGHTS, ACTIONS, ADVICE, LIFE<br> & INSPIRATION<br>OF</p>
+  </div>
+  <div class="image4">
+    <img src="image4.jpg" alt="image">
+  </div>
+  <div class="content11">
+    <p>OF THE FOREMOST</p>
+  </div>
+  <div class="content12">
+    <div class="apj" id="apj">
+      <div class="world"> <a class="an" href="#"> World Leaders <br> Like </a></div>
+      <img src="apj.jpg" alt="">
+      <div class="name"><p>Dr. APJ Abdul Kalam</p></div>
+    </div>
+    <div class="apj">
+      <div class="world"><a class="an" href="#"> Visionaries & Pioneers <br>Like</a></div>
+      <img src="jrd.jpeg" alt="">
+      <div class="name"><p>JRD Tata</p></div>
+    </div>
+    <div class="apj" id="warren">
+      <div class="world"><a class="an" href="#"> Business Legends <br> Like </a></div>
+      <img src="warren.jpg" alt="">
+      <div class="name"><p>Warren Buffett</p></div>
+    </div> 
+  </div>
+  <div class="content13">
+    <div class="apj" id="apj">
+      <div class="world"> <a class="an" href="#"> Global Business Leaders <br> Like </a></div>
+      <img src="ratantata.jpeg" alt="">
+      <div class="name"><p>Ratan Tata</p></div>
+    </div>
+    <div class="apj">
+      <div class="world"><a class="an" href="#">Innovators <br>Like</a></div>
+      <img src="vinton.jpg" alt="">
+      <div class="name"><p>Dr. Vinton Cerf</p></div>
+    </div>
+    <div class="apj" id="warren">
+      <div class="world"><a class="an" href="#"> Futurists<br> Like </a></div>
+      <img src="michio.jpg" alt="">
+      <div class="name"><p>Dr. Michio Kaku</p></div>
+    </div>
+  </div>
+  <div class="content13">
+    <div class="apj" id="apj">
+      <div class="world"> <a class="an" href="#"> Thought Leaders <br> Like </a></div>
+      <img src="jim.jpeg" alt="">
+      <div class="name"><p>Jim Collins</p></div>
+    </div>
+    <div class="apj">
+      <div class="world"><a class="an" href="#">World Class Professors <br>Like</a></div>
+      <img src="peter.jpeg" alt="">
+      <div class="name"><p>Prof Peter Drucker</p></div>
+    </div>
+    <div class="apj" id="warren">
+      <div class="world"><a class="an" href="#"> Distinguished Entrepreneurs<br> Like </a></div>
+      <img src="narayan.jpg" alt="">
+      <div class="name"><p>N.R Narayana Murthy</p></div>
+    </div>
+  </div>
+  <div class="content14">
+    <p>&<br>Other Leaders par excellence.</p>
+  </div>
+  <div class="content15">
+    <p>Ingesting an extra-ordinary amount<br> of<br> this exceptionally valuable content<br> on<br> 100+ Topics of Strategic Importance<br> from</p>
+  </div>
+  <div class="image15">
+    <img src="image5.png" alt="image">
+  </div>
+  <div class="image15">
+    <img src="image6.png" alt="image">
+  </div>
+  <div class="content14">
+    <p>Delivered via specialized,</p>
+  </div>
+  <div class="content16">
+    <p>‍ Online & Offline, extremely affordable, High Impact “LeaderClasses Career Advancement & Leadership Development Programs ( Know More & Signup Now ), Summits ( When ever logistically feasible ) & Webinars "  designed to advance the career & Build / Strengthen the Leadership Foundations, of our program participants.</p>
+  </div>
+  <hr class="content17">
+  <div class="content18">
+    <h2>Not Yet Sure Of  Joining ?</h2>
+  </div>
+  <div class="content19">
+    <p>Hear what Top Tier CEOs & Emerging CEO are saying about LeaderClasses Via their Video Testimonials below :-</p>
+  </div>
+  <div class="content18">
+    <h2>CEO Testimonials</h2>
+  </div>
+  <div class="biography">
+    <div class="bio">
+      <img src="ramgopal.jpg" alt="">
+      <div class="ram"><p> Ram Gopal<br>Chief Executive Officer<br>Barclays India</p></div>
+    </div>
+    <div class="bio1">
+      <div class="mba"><h3 class="content18">Executive Biography </h3>
+      <p> An MBA from the University of Chicago & a CFA charter holder, Ram brings over 26+ of experience gained at Citibank, Standard Chartered & Barclays across various geographies & divisions to his current responsibility of designing & executing country strategy for Barclays in India , with accountability for financial performance & market position for the Bank.<br> Additionally, Ram is also a member of the European Business Group Banking Finance Committee representing the firms interests.</p>
+      </div>
+    </div>
+    <div class="bio2">
+      <video width="320" height="320" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
